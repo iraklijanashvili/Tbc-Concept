@@ -26,4 +26,5 @@ slider.js - სლაიდერის ფუნქციონალისთ�
 
 პროექტის დასასტარტი ინსტრუქცია:
 
-გახსენით ტერმინალი და დააკლონირეთ რეპოზიტორია: git clone [https://github.com/Tornik2/TbcConcept.git](https://iraklijanashvili.github.io/Tbc-Concept/)
+გახსენით ტერმინალი და დააკლონირეთ რეპოზიტორია: git clone [[https://github.com/Tornik2/TbcConcept.git](https://iraklijanashvili.github.io/Tbc-Concept/)
+](https://iraklijanashvili.github.io/Tbc-Concept/)
