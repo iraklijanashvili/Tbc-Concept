@@ -1,23 +1,29 @@
-1.index.html - ქართულ ენაზე
-2.indexEng.html - ინგლისურ ენაზე
-3.awards.css
-4.burgerMenu.css
-5.descriptionSection.module.css
-6.digitalBank.css
-7.footer.module.css
-8.globall.css
-9.header.module.css
-10.headingSection.module.css
-11.numberCards.css
-12.offers.css
-13.packages.module.css
-14.paddingX.module.css
-15.products.css
-16.index.js
-17.slider.js - სლაიდერის ფუნქციონალისთვის
-19.burgermenu.js - ბურგერმენიუს ფუნქციონალისთვის
-20.offerSlider.js - შეთავაზებების სლაიდერი
-21.changeLanguage.js - ენის შეცვლის ფუნქციონალისთვის
-22.assets - ფოლდერი სადაც საიტზე გამოყენებული ფოტოებია.
-23.fonts - საიტზე გამოყენებული ფონტები
-# Tbc-Concept
+index.html - ქართულ ენაზე
+indexEng.html - ინგლისურ ენაზე
+assets - ფოლდერი სადაც საიტზე გამოყენებული ფოტოებია
+awards.css
+burgerMenu.css
+burgermenu.js - ბურგერმენიუს ფუნქციონალისთვის
+changeLanguage.js - ენის შეცვლის ფუნქციონალისთვის
+descriptionSection.module.css
+digitalBank.css
+fonts - საიტზე გამოყენებული ფონტები
+footer.module.css
+globall.css
+header.module.css
+headingSection.module.css
+index.js
+numberCards.css
+offerSlider.js - შეთავაზებების სლაიდერი
+offers.css
+packages.module.css
+paddingX.module.css
+products.css
+slider.js - სლაიდერის ფუნქციონალისთვის
+
+გამოყენებული ტექნოლოგიებიa: HTML, CSS, JS.
+ვენდორ პრეფიქსებითვის გამოვიყენე Autoprefixer იმისთვის, რომ თანამედროვე ბრაუზერებზე ერთნაირად გაიხსნას საიტი.
+
+პროექტის დასასტარტი ინსტრუქცია:
+
+გახსენით ტერმინალი და დააკლონირეთ რეპოზიტორია: git clone [https://github.com/Tornik2/TbcConcept.git](https://iraklijanashvili.github.io/Tbc-Concept/)
