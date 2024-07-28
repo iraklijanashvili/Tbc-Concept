@@ -1,0 +1,334 @@
+.awards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  color: black;
+  padding-left: 15px;
+}
+.awardsWrapper {
+  padding: 36px 0px;
+  max-width: 1110px;
+  width: 100%;
+}
+.offersSlider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  gap: 15px;
+  cursor: -webkit-grab;
+  cursor: grab;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -webkit-transform: translate3d(0px 0px 0px);
+  transform: translate3d(0px 0px 0px);
+  -ms-scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-bottom: 20px;
+}
+.offersSlider:active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+.leftArrow,
+.rightArrow {
+  cursor: pointer;
+}
+.sliderContainer {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.offersSlider::-webkit-scrollbar {
+  display: none;
+}
+.awardsTitleWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  margin-bottom: 20px;
+}
+.awardsTitleWrapper h2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}
+.customScrollbar {
+  position: absolute;
+  height: 2px;
+  bottom: 10px;
+  left: 0;
+  width: 95%;
+  right: 92px;
+  background-color: #d1d5d6;
+}
+.scrollbarThumb {
+  height: 100%;
+  width: 50%;
+  background-color: rgb(24, 44, 192);
+  border-radius: 1px;
+  -webkit-transition: width 0.6s ease;
+  -o-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  cursor: -webkit-grab;
+  cursor: grab;
+  position: absolute;
+}
+.scrollbarThumb:active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+.awardsCard {
+  position: relative;
+  border-radius: 8px;
+  min-width: 237px;
+  height: 283px;
+  overflow: hidden;
+  padding: 28px;
+  background-color: white;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.awardsCard:hover {
+  background-color: white;
+  -webkit-box-shadow: -5px 10px 20px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.08);
+  box-shadow: -5px 10px 20px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.08);
+}
+.awardsCard > img {
+  max-width: 118px;
+  -webkit-transition: -webkit-transform 0.6s ease-in-out;
+  transition: -webkit-transform 0.6s ease-in-out;
+  -o-transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+}
+.theBankerImg {
+  width: 52px;
+  height: 52px;
+}
+.euroMoneyImg {
+  width: 94px;
+  height: 52px;
+}
+.awardsCard:hover img {
+  -webkit-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
+}
+
+.awardsDescription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  padding: 0px;
+  margin-top: 10px;
+}
+.AwardsCategories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: rgb(85, 95, 98);
+}
+.AwardsCategories p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+}
+.awardsDescription h3 {
+  color: #141719;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 30px;
+  margin-right: 10px;
+}
+.scrollbarWrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 2px;
+  position: relative;
+  margin-top: 30px;
+}
+.arrowsWrapper {
+  display: none;
+}
+.arrowDisabled {
+  fill: #d1d5d6;
+}
+.viewAllButton {
+  margin-bottom: 20px;
+}
+.subscribeSetButtonText {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16.8px;
+  padding-right: 15px;
+}
+.viewAllText:hover {
+  color: rgb(15, 154, 189);
+}
+
+.awardsCard .imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+.awardsCard:hover .imageWrapper {
+  -webkit-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
+}
+
+.awardsCard:hover .mainImage {
+  -webkit-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
+}
+
+.awardsCard .smallImage {
+  position: absolute;
+  top: 16px;
+  right: 0px;
+  width: 78px;
+  height: 56px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  z-index: 1;
+  background-color: white;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+@media (min-width: 480px) {
+  .awardsTitleWrapper {
+    margin-bottom: 28px;
+  }
+  .awardsTitleWrapper h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+  .viewAllText {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.6px;
+  }
+  .awardsDescription h3 {
+    color: #141719;
+    font-size: 16px;
+    margin-right: 0px;
+  }
+  .awards {
+    padding-left: 45px;
+  }
+  .subscribeSetButtonText {
+    padding-right: 45px;
+  }
+  .awardsCard {
+    min-width: 319px;
+    height: 255px;
+  }
+  .scrollbarThumb {
+    width: 33%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .awardsCard {
+    min-width: 322px;
+    min-height: 270px;
+  }
+  .scrollbarThumb {
+    width: 20%;
+  }
+  .awardsTitleWrapper {
+    margin-bottom: 36px;
+  }
+}
+
+@media (min-width: 992px) {
+  .awards {
+    padding-left: 47px;
+  }
+  .subscribeSetButtonText {
+    padding-right: 47px;
+  }
+  .awardsCard {
+    min-width: 400px;
+    min-height: 420px;
+  }
+}
+@media (min-width: 1024px) {
+  .awardsCard {
+    min-width: 350px;
+    min-height: 386px;
+  }
+  .offersSlider {
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 1110px) {
+  .awards {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .arrowsWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 8px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+  }
+  .awardsCard {
+    min-width: 322px;
+    min-height: 271px;
+  }
+  .AwardsCategories p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+  }
+}

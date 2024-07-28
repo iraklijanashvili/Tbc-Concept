@@ -1,0 +1,482 @@
+.footer {
+  width: 100%;
+  background-color: white;
+  color: black;
+}
+.footerWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1110px;
+  margin: auto;
+}
+.footerHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 32px 0px;
+}
+.footerLogo img:first-child {
+  display: none;
+}
+.footerNavigation {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 32px 0px;
+}
+.navSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  gap: 20px;
+}
+.navSectionInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.navSectionInfo a {
+  cursor: auto !important;
+}
+
+.languageSelector {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  display: inline-block;
+  color: rgb(85, 95, 98);
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 0px 10px;
+}
+
+.languageSelector {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  display: inline-block;
+  color: rgb(85, 95, 98);
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 0px 10px;
+}
+
+.languageSelector img {
+  padding-right: 5px;
+}
+
+.languageSelector p {
+  font-size: 14px;
+  font-weight: 23.8px;
+  font-weight: 700;
+}
+
+.languageSelector:hover {
+  background-color: rgb(231, 229, 229);
+}
+
+.languageSelector:hover .languageDropdown {
+  display: block;
+  margin-top: 2px;
+  width: 90px;
+  pad: 4px 0px;
+  text-align: center;
+}
+
+.navTitle,
+.socialTitle {
+  font-size: 16px;
+  line-height: 27.2px;
+  color: #141719;
+  margin-bottom: 4px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.socialTitle {
+  margin-bottom: 24px;
+}
+
+.navTitle:first {
+  margin-top: 32px;
+}
+.navTitle:first {
+  margin-top: 32px;
+}
+.navItem {
+  font-size: 16px;
+  color: rgb(85, 95, 98);
+}
+.navItem:hover {
+  color: #182cc0;
+  cursor: pointer;
+}
+.contactLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #555f62;
+}
+.contactLink img {
+  width: 16px;
+  height: 16px;
+}
+.contactLink[href="mailto:info@tbcconcept.ge"] {
+  margin: 32px 0px;
+}
+
+.contactLink[href="mob:+995 32 2 27 27 00"] {
+  margin-top: 32px;
+}
+.contactLink[href="Locations"] {
+  margin-bottom: 48px;
+}
+
+.contactInfo {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23.8px;
+}
+.contactInfo:hover {
+  text-decoration: underline;
+}
+.socialMediaIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 4px;
+  margin-top: -4px;
+}
+.iconWrapper {
+  width: 52px;
+  height: 52px;
+  margin-right: 10px;
+  background-color: #f9fafa;
+  border-radius: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-transition: background-color 0.25s ease-in-out,
+    color 0.25s ease-in-out;
+  -o-transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out, color 0.25s ease-in-out;
+}
+.iconWrapper:hover {
+  color: #182cc0;
+  background-color: #eee;
+}
+.iconWrapper:hover img {
+  -webkit-filter: brightness(0) saturate(100%) invert(22%) sepia(100%)
+    saturate(5034%) hue-rotate(222deg) brightness(98%) contrast(112%);
+  filter: brightness(0) saturate(100%) invert(22%) sepia(100%) saturate(5034%)
+    hue-rotate(222deg) brightness(98%) contrast(112%);
+}
+.footerBottomContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.footerBottom {
+  max-width: 1110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 24px 0px;
+  border-top: 1px solid #eef1f1;
+  background-color: #faf8f8;
+  width: 100%;
+}
+.copyrightInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 5px;
+}
+.copyrightInfo img {
+  width: 20px;
+  height: 20px;
+}
+.copyrightInfo span {
+  color: rgb(85, 95, 98);
+  font-size: 14px;
+  line-height: 23.8px;
+  font-weight: 400;
+}
+
+.legalLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 10px !important;
+  cursor: pointer;
+  color: rgb(85, 95, 98);
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.legalLinks p:first-child {
+  margin-right: 15px;
+}
+.legalLinks p:hover {
+  color: #182cc0;
+}
+.accordionContainer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.accordion {
+  background-color: white;
+  border-top: 1px solid rgb(85, 95, 98);
+}
+
+.accordionHeader {
+  padding: 24px 0px;
+  cursor: pointer;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.accordion .accordionHeader.navTitle {
+  margin: 0px 0px;
+}
+
+.accordionArrow {
+  -webkit-transition: -webkit-transform 0.6s ease;
+  transition: -webkit-transform 0.6s ease;
+  -o-transition: transform 0.6s ease;
+  transition: transform 0.6s ease;
+  transition: transform 0.6s ease, -webkit-transform 0.6s ease;
+}
+.accordionInner {
+  padding-bottom: 24px;
+}
+.accordionContent {
+  overflow: hidden;
+  -webkit-transition: max-height 0.6s ease;
+  -o-transition: max-height 0.6s ease;
+  transition: max-height 0.6s ease;
+  max-height: 0;
+}
+.accordionContent .navItem {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+}
+
+.accordionContent p {
+  margin: 0;
+  padding: 5px 0;
+  color: #666;
+}
+
+.accordion.active .accordionContent {
+  max-height: 1000px;
+}
+
+.accordion.active .accordionArrow {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+@media screen and (min-width: 480px) {
+  .navTitle,
+  .socialTitle {
+    font-size: 24px;
+    line-height: 40.8px;
+  }
+  .footerHeader {
+    padding: 36px 0px;
+  }
+  .footerNavigation {
+    padding: 56px 0px;
+  }
+  .accordionContent .navItem {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+  }
+  .contactLink[href="Locations"] {
+    margin-bottom: 32px;
+  }
+  .footerBottom {
+    padding: 32px 0px;
+  }
+  .accordionInner {
+    padding-bottom: 36px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navSection {
+    display: none;
+    border: 2px solid black;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footerLogo img:first-child {
+    display: block;
+  }
+  .footerLogo svg {
+    display: none;
+  }
+  .footerHeader {
+    padding-top: 45px;
+    padding-bottom: 50px;
+  }
+  .footerNavigation {
+    padding-bottom: 45px;
+    padding-top: 0px;
+  }
+  .navTitle,
+  .socialTitle {
+    font-size: 14px;
+    line-height: 23.8px;
+  }
+  .navItem P {
+    font-size: 14px;
+  }
+  .socialTitle {
+    margin-bottom: 16px;
+  }
+  .footerBottom {
+    padding: 28px 0px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+  .footerBottom span,
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23.8px;
+  }
+  .legalLinks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 35px !important;
+    margin-bottom: 0px;
+    color: rgb(85, 95, 98);
+    font-size: 12px;
+    line-height: 20.4px;
+    font-weight: 400;
+  }
+  .footerBottom span,
+  p {
+    font-size: 12px;
+    line-height: 20.4px;
+  }
+  .iconWrapper {
+    width: 40px;
+    height: 40px;
+    margin-right: 0px;
+  }
+  .contactLink[href="mailto:info@tbcconcept.ge"] {
+    margin: 16px 0px;
+  }
+  .accordionContainer {
+    display: none;
+  }
+  .copyrightInfo span {
+    color: rgb(85, 95, 98);
+    font-size: 12px;
+    line-height: 20.4px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .contactInfo {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27.2px;
+  }
+  .navItem P {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+  }
+  .navTitle,
+  .socialTitle {
+    line-height: 27.2px;
+  }
+  .languageSelector p {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27.2px;
+  }
+}

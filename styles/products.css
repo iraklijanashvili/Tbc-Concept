@@ -1,0 +1,251 @@
+.threeSixNull {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  border-radius: 10px;
+  padding: 40px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.threeSixNull::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-transition: -webkit-transform 0.8s ease-out;
+  transition: -webkit-transform 0.8s ease-out;
+  -o-transition: transform 0.8s ease-out;
+  transition: transform 0.8s ease-out;
+  transition: transform 0.8s ease-out, -webkit-transform 0.8s ease-out;
+  z-index: -1;
+}
+
+.threeSixNull {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2 / 3;
+  height: 250px;
+}
+
+.threeSixNull::before {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.3)),
+      to(rgba(0, 0, 0, 0.3))
+    ),
+    url("https://static.tbcconcept.ge/desktop/media/nqeaa1rb.avl360.png");
+  background-image: -o-linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://static.tbcconcept.ge/desktop/media/nqeaa1rb.avl360.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://static.tbcconcept.ge/desktop/media/nqeaa1rb.avl360.png");
+}
+.threeSixNull:hover::before {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.productCard {
+  position: relative;
+  border: 1px solid #e1e4e5;
+  border-radius: 8px;
+  min-width: 236px;
+  min-height: 299px;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.productCard > img {
+  width: 100%;
+  -webkit-transition: -webkit-transform 0.6s ease-in-out;
+  transition: -webkit-transform 0.6s ease-in-out;
+  -o-transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  height: 136px;
+}
+.productCard:hover {
+  background-color: white;
+  -webkit-box-shadow: -5px 10px 20px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.08);
+  box-shadow: -5px 10px 20px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.08);
+}
+.productCard:hover img {
+  -webkit-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
+}
+
+.productCard .imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 136px;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+.productCard:hover .imageWrapper {
+  -webkit-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
+}
+.productCard .digital::before {
+  background-image: url("https://static.tbcconcept.ge/desktop/media/mfvvitla.0j5430128849_7213815365374065_9017687812435872577_n.png");
+}
+
+.productCard .premium::before {
+  background-image: url("https://static.tbcconcept.ge/desktop/media/0m25n3qt.w03prem.png");
+}
+
+.threeSixNull::before {
+  background-image: url("https://static.tbcconcept.ge/desktop/media/nqeaa1rb.avl360.png");
+}
+.productCard .mainImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.productCard:hover .mainImage {
+  -webkit-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
+}
+
+.productCard .smallImage {
+  position: absolute;
+  top: 16px;
+  right: 0px;
+  width: 78px;
+  height: 56px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  z-index: 1;
+  background-color: white;
+}
+.productCard .imageWrapper .digital,
+.premium,
+.threeSixNull {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.productCardCategories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #6f787b;
+  font-size: 12px;
+}
+.productCardCategories p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20.4px;
+}
+.productCard .productCardCategories p {
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* Number of lines to show before truncating */
+  -webkit-box-orient: vertical;
+}
+.productScrollPadding {
+  margin-top: 45px;
+}
+
+@media screen and (max-width: 768px) {
+  .threeSixNull {
+    height: 100%;
+    width: 100%;
+  }
+  .productCard > img {
+    width: 100%;
+    -webkit-transition: -webkit-transform 0.6s ease-in-out;
+    transition: -webkit-transform 0.6s ease-in-out;
+    -o-transition: transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out;
+    transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+    height: 329px;
+  }
+}
+@media (min-width: 480px) {
+  .productCard {
+    min-width: 317px;
+    min-height: 298px;
+  }
+  .productCard .imageWrapper {
+    position: relative;
+    width: 100%;
+    height: 136px;
+    overflow: hidden;
+    -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: -webkit-transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+  }
+}
+
+@media (min-width: 992px) {
+  .productCard {
+    min-width: 540px;
+    min-height: 520px;
+  }
+}
+@media (min-width: 1024px) {
+  .productCard {
+    min-width: 350px;
+    min-height: 386px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .productCard {
+    min-width: 331px;
+    min-height: 397px;
+  }
+
+  .productCard .imageWrapper {
+    height: 50%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .productCard {
+    min-width: 350px;
+    min-height: 408px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .productCard {
+    min-width: 350px;
+    min-height: 407px;
+  }
+}

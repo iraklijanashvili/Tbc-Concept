@@ -1,0 +1,310 @@
+.offers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  color: black;
+  padding-left: 15px;
+}
+.offersWrapper {
+  padding: 36px 0px;
+  max-width: 1110px;
+  width: 100%;
+}
+.offersSlider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  gap: 15px;
+  cursor: -webkit-grab;
+  cursor: grab;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -webkit-transform: translate3d(0px 0px 0px);
+  transform: translate3d(0px 0px 0px);
+  -ms-scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;
+}
+.offersSlider:active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+.sliderContainer {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.offersSlider::-webkit-scrollbar {
+  display: none;
+}
+.titleWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  margin-bottom: 20px;
+}
+.titleWrapper h2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+}
+.customScrollbar {
+  position: absolute;
+  height: 2px;
+  bottom: 10px;
+  left: 0;
+  width: 95%;
+  right: 92px;
+  background-color: #d1d5d6;
+}
+.scrollbarThumb {
+  height: 100%;
+  width: 50%;
+  background-color: rgb(24, 44, 192);
+  border-radius: 1px;
+  -webkit-transition: width 0.6s ease;
+  -o-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+  cursor: -webkit-grab;
+  cursor: grab;
+  position: absolute;
+}
+.scrollbarThumb:active {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+.offerCard {
+  position: relative;
+  border: 1px solid #e1e4e5;
+  border-radius: 8px;
+  min-width: 237px;
+  min-height: 124px;
+  overflow: hidden;
+}
+.offerCard > img {
+  width: 100%;
+  -webkit-transition: -webkit-transform 0.6s ease-in-out;
+  transition: -webkit-transform 0.6s ease-in-out;
+  -o-transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+}
+.offerCard:hover img {
+  -webkit-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
+}
+
+.description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 16px;
+  padding: 20px;
+}
+.categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #6f787b;
+  font-size: 12px;
+}
+.categories p {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20.4px;
+}
+.description h3 {
+  color: #141719;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.scrollbarWrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  height: 2px;
+  position: relative;
+  margin-top: 30px;
+}
+.arrowsWrapper {
+  display: none;
+}
+.arrowDisabled {
+  fill: #d1d5d6; /* Grey color for disabled state */
+}
+.viewAllButton {
+  margin-bottom: 20px;
+}
+.subscribeSetButtonText {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16.8px;
+  padding-right: 15px;
+}
+.viewAllText:hover {
+  color: rgb(15, 154, 189);
+}
+
+.offerCard .imageWrapper {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+.offerCard:hover .imageWrapper {
+  -webkit-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
+}
+
+.offerCard .mainImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.offerCard:hover .mainImage {
+  -webkit-transform: scale(1.025);
+  -ms-transform: scale(1.025);
+  transform: scale(1.025);
+}
+
+.offerCard .smallImage {
+  position: absolute;
+  top: 16px;
+  right: 0px;
+  width: 78px;
+  height: 56px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  z-index: 1;
+  background-color: white;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+@media (min-width: 480px) {
+  .titleWrapper {
+    margin-bottom: 28px;
+  }
+  .titleWrapper h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+  .viewAllText {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.6px;
+  }
+  .description h3 {
+    color: #141719;
+    font-size: 16px;
+  }
+  .offers {
+    padding-left: 45px;
+  }
+  .subscribeSetButtonText {
+    padding-right: 45px;
+  }
+  .offerCard {
+    min-width: 317px;
+    min-height: 332px;
+  }
+  .scrollbarThumb {
+    width: 33%;
+  }
+}
+
+@media (min-width: 992px) {
+  .offers {
+    padding-left: 47px;
+  }
+  .subscribeSetButtonText {
+    padding-right: 47px;
+  }
+  .offerCard {
+    min-width: 440px;
+    min-height: 420px;
+  }
+}
+@media (min-width: 1024px) {
+  .offerCard {
+    min-width: 350px;
+    min-height: 386px;
+  }
+  .offersSlider {
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 1110px) {
+  .offers {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    padding: 28px;
+  }
+  .offerCard {
+    min-width: 330px;
+    min-height: 142px;
+  }
+  .scrollbarThumb {
+    width: 20%;
+  }
+  .titleWrapper {
+    margin-bottom: 36px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .arrowsWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 8px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+  }
+  .offerCard {
+    min-width: 348px;
+    min-height: 390px;
+  }
+}

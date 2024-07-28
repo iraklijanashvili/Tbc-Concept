@@ -1,0 +1,223 @@
+.headingSection {
+  position: relative;
+  width: 100%;
+  height: 352px;
+  max-width: 1110px;
+  margin: 32px 0px 36px 0px;
+}
+.homePageContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  max-width: 1110px;
+  width: 100%;
+}
+.HomePage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 1110px;
+  width: 100%;
+  color: black;
+  padding-left: 15px;
+  padding: 16px 0px;
+}
+.HomePage svg {
+  margin-right: 7px;
+}
+
+.HomePage P {
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 20.4px;
+}
+
+.headingSectionBgImage {
+  -o-object-fit: cover;
+  object-fit: cover;
+  width: 100%;
+  height: inherit;
+  -webkit-filter: brightness(0.7);
+  filter: brightness(0.7);
+}
+
+.headingSectionWrapper {
+  z-index: 90;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: end;
+  color: white;
+  padding: 0px 0px 20px 0px;
+}
+
+.headingSectionTextBox {
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.headingSectionTextBox p {
+  font-size: 14px;
+  text-wrap: wrap;
+  line-height: 23.8px;
+  font-weight: 400;
+}
+.headingSectionTextBox h1 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.subscribeButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 50px;
+  background: -o-linear-gradient(75deg, rgb(0, 22, 130), rgb(50, 64, 229));
+  background: linear-gradient(15deg, rgb(0, 22, 130), rgb(50, 64, 229));
+}
+.subscribeButton:hover {
+  background: -o-linear-gradient(75deg, rgb(87, 160, 202), rgb(50, 64, 229));
+  background: linear-gradient(15deg, rgb(87, 160, 202), rgb(50, 64, 229));
+}
+.subscribeButton svg {
+  padding-right: 5px;
+}
+.subscribeButton P {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15.96px;
+}
+
+/* Mobile styles (default) */
+@media screen and (min-width: 480px) {
+  .headingSectionTextBox p {
+    text-wrap: wrap;
+    max-width: 450px;
+  }
+  .headingSectionTextBox h1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+  .HomePage {
+    padding-left: 0px;
+    padding: 24px 0px;
+  }
+  .HomePage img {
+    display: none;
+  }
+  .headingSection {
+    margin: 32px 0px 40px 0px;
+  }
+  .headingSectionWrapper {
+    padding: 0px 0px 36px 0px;
+  }
+}
+
+/* Mobile */
+@media screen and (min-width: 480px) {
+}
+
+/* Tablet styles */
+@media screen and (min-width: 768px) {
+  .headingSection {
+    padding: 0px 45px;
+    margin: 32px 0px 50px 0px;
+  }
+  .headingSectionWrapper {
+    text-wrap: wrap;
+    padding: 0px 65px 36px 65px;
+  }
+
+  .headingSectionBgImage {
+    border-radius: 5px;
+  }
+  .subscribeButton {
+    max-width: 151px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .headingSection {
+    padding: 0px 47px;
+    margin: 32px 0px 60px 0px;
+  }
+  .headingSectionWrapper {
+    padding: 0px 110px 0px 110px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+/* Desktop styles */
+
+@media screen and (min-width: 1110px) {
+  .headingSection {
+    padding: 0px 0px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .headingSectionTextBox p {
+    font-size: 16px;
+    line-height: 27.2px;
+  }
+  .headingSectionTextBox h1 {
+    font-size: 28px;
+    line-height: 42px;
+  }
+  .subscribeButton P {
+    font-size: 12px;
+    line-height: 15.96px;
+  }
+}

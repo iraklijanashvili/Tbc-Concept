@@ -1,0 +1,20 @@
+.paddingX {
+  padding: 0px 15px;
+  width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  .paddingX {
+    padding: 0px 45px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .paddingX {
+    padding: 0px 47px;
+  }
+}
+@media screen and (min-width: 1110px) {
+  .paddingX {
+    padding: 0px 0px;
+  }
+}

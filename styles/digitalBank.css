@@ -1,0 +1,279 @@
+.digitalBankSection {
+  width: 100%;
+  padding: 36px 0px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.digitalBank {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: start;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: start;
+  color: black;
+  max-width: 1110px;
+  width: 100%;
+}
+
+.digitalBank h2 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  margin-bottom: 25px;
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+.digitalBank > img {
+  max-width: 370px;
+  width: 100%;
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+}
+
+.digitalBank .content {
+  -webkit-box-ordinal-group: 4;
+  -ms-flex-order: 3;
+  order: 3;
+  width: 100%;
+}
+
+.digitalBank p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  max-width: 448px;
+  width: 100%;
+  color: rgb(85, 95, 98);
+  margin-top: 25px;
+}
+
+.downloadButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 16px 32px;
+  background-color: #fff;
+  color: rgb(24, 44, 192);
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15.96px;
+  border: 1px solid #182cc0;
+  border-radius: 5px;
+  -webkit-transition-duration: 0.6s;
+  -o-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  -o-transition-property: transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  margin-top: 25px;
+}
+
+.downloadButton:hover {
+  color: rgb(24, 44, 192);
+  border: 1px solid grey;
+}
+.downloadButton img {
+  width: 14px;
+  height: 16px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+}
+
+.download-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: text-bottom;
+}
+
+.download-icon::before {
+  content: "\2193";
+  font-size: 20px;
+}
+
+.content h2 {
+  display: none;
+}
+.appStoreButtons {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .downloadButton {
+    font-size: 14px;
+    padding: 16px 32px;
+  }
+
+  .download-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .download-icon::before {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .digitalBankSection {
+    padding: 40px 0px;
+  }
+  .digitalBank h2 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .digitalBankSection {
+    padding: 40px 0px;
+  }
+  .digitalBank p {
+    line-height: 23.8px;
+  }
+  .digitalBank p {
+    max-width: 610px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .digitalBank > h2 {
+    display: none;
+  }
+  .digitalBankSection {
+    padding: 50px 0px;
+  }
+
+  .digitalBank {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .content h2 {
+    display: block;
+    -webkit-box-ordinal-group: unset;
+    -ms-flex-order: unset;
+    order: unset;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 20px;
+  }
+
+  .digitalBank .content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    max-width: 50%;
+    padding-right: 20px;
+    -webkit-box-ordinal-group: unset;
+    -ms-flex-order: unset;
+    order: unset;
+  }
+
+  .digitalBank p {
+    margin-bottom: 20px;
+  }
+
+  .downloadButton {
+    max-width: 160px;
+  }
+  .digitalBank > img {
+    width: auto;
+    height: 270px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .digitalBankSection {
+    padding: 60px 0px;
+  }
+
+  .digitalBank .content {
+    max-width: 55%;
+  }
+
+  .digitalBank img {
+    max-width: 40%;
+  }
+  .downloadButton {
+    display: none;
+  }
+
+  .appStoreButtons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+  }
+  .appStoreButton img {
+    max-width: 100%;
+  }
+
+  .appStoreButton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 16px 32px;
+    background-color: #fff;
+    border: 1px solid rgb(225, 228, 229);
+    border-radius: 5px;
+    text-decoration: none;
+    color: #182cc0;
+    font-size: 14px;
+    font-weight: 700;
+    -webkit-transition: border-color 0.3s;
+    -o-transition: border-color 0.3s;
+    transition: border-color 0.3s;
+  }
+
+  .appStoreButton:hover {
+    background-color: #f8f6f6;
+  }
+
+  .appStoreButton img {
+    height: 20px;
+    margin-right: 10px;
+  }
+  .digitalBank > img {
+    height: 370px;
+  }
+}

@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "TBCX";
+  src: url("./assets/fonts/TBCXBold.6db5e61d.woff2");
+}
+@font-face {
+  font-family: "TBCX";
+  src: url("./assets/fonts/TBCXRegular.dee156cc.woff2");
+}
+@font-face {
+  font-family: "TBCX";
+  src: url("./assets/fonts/TBCXMedium.8ef1248a.woff2");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  color: #f8f6f6;
+  font-family: "TBCX", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #faf8f8;
+}
+
+.wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1110px) and (max-width: 1204px) {
+  html {
+    padding: 0px 47px;
+  }
+}
